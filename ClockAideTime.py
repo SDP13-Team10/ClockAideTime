@@ -19,3 +19,10 @@ def getTimeTuple():
 	minute = currentTime.strftime("%M")
 	timeTouple = hour, minute
 	return timeTouple
+	
+def nowHour():
+	return datetime.datetime.now().strftime("%I")
+	
+def nowMinute():
+	return datetime.datetime.now().strftime("%M")
+	
